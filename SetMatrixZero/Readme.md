@@ -289,6 +289,3 @@ Below is a version of the algorithm in pseudo-code (a simplified way to think ab
   - Special care is taken if the zero is in the first row.
 - **Step 4:** We update the matrix using these markers—any cell whose row or column is marked becomes 0.
 - **Step 5:** Finally, we handle the first column and the first row based on the markers and flag.
-
-By following this logical sequence, you can solve the problem efficiently without needing extra space. This way of thinking—breaking down the problem into manageable parts, planning your approach with pseudo-code, and testing with examples—is a great method for coding any solution.
-
