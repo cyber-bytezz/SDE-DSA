@@ -9,12 +9,12 @@ class Solution:
 
         # in this we are iterating Str -> s
         for s in str:
+            
             # In tihs we need to count all albaher so we are creating the list of 26(o)
             count  = [0] * 26
 
             # In this we are accesing the Coluum of {26(0)} to make it
             for c in s:
-
 
                 # In this we are makeing Ascci values that like c =99 a= 97 -> 2 in this 2 
                 # but we need to add +1 because of we are starig from 0
